@@ -26037,7 +26037,7 @@ A.n_(s+a.k(0))
 A.n_(s+A.a33(A.a2M(a.e).c.a.h(0,"charset")).ea(0,a.w))},
 axa(a,b){var s=0,r=A.V(t.z),q,p,o,n,m
 var $async$axa=A.W(function(c,d){if(c===1)return A.S(d,r)
-while(true)switch(s){case 0:m=A.aHA("http","villagepaisa.in","mobile/auth/",null)
+while(true)switch(s){case 0:m=A.aHA("https","villagepaisa.in","mobile/auth/",null)
 A.n_(m)
 p=t.N
 o=A.aD(["Content-Type","application/x-www-form-urlencoded"],p,p)
@@ -26070,7 +26070,7 @@ j=A
 s=3
 return A.a_(A.ay6(),$async$y2)
 case 3:n=l.aD([k,"Token "+j.j(c)],o,o)
-m=A.aHA("http","villagepaisa.in",a,null)
+m=A.aHA("https","villagepaisa.in",a,null)
 A.n_(m)
 s=4
 return A.a_(A.aZp(m,n),$async$y2)
