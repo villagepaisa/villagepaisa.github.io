@@ -27561,7 +27561,7 @@ A.mO(s+a.k(0))
 A.mO(s+A.lo(A.ll(a.e).c.a.h(0,"charset")).cl(0,a.w))},
 aHx(a,b){var s=0,r=A.T(t.z),q,p,o,n,m
 var $async$aHx=A.U(function(c,d){if(c===1)return A.Q(d,r)
-while(true)switch(s){case 0:m=A.aLK("http","192.168.0.183:8123","mobile/auth/",null)
+while(true)switch(s){case 0:m=A.aLK("http","villagepaisa.in","mobile/auth/",null)
 A.mO(m)
 p=t.N
 o=A.ao(["Content-Type","application/x-www-form-urlencoded"],p,p)
@@ -27594,7 +27594,7 @@ j=A
 s=3
 return A.W(A.a9g(),$async$oO)
 case 3:n=l.ao([k,"Token "+j.h(c)],o,o)
-m=A.aLK("http","192.168.0.183:8123",a,null)
+m=A.aLK("http","villagepaisa.in",a,null)
 A.mO(m)
 s=4
 return A.W(A.bcr(m,n),$async$oO)
@@ -27615,7 +27615,7 @@ s=3
 return A.W(A.a9g(),$async$vB)
 case 3:o=m.ao([l,"Token "+k.h(d)],p,p)
 s=4
-return A.W(A.aWH(A.aLK("http","192.168.0.183:8123",a,null),B.aj.ix(b),o),$async$vB)
+return A.W(A.aWH(A.aLK("http","villagepaisa.in",a,null),B.aj.ix(b),o),$async$vB)
 case 4:n=d
 A.aML(n,"getJson")
 q=n
