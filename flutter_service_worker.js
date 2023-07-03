@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "3e60f39b3535946b2a8fc9625627b7bd",
-"assets/AssetManifest.json": "7ce1fa039ba2d527721ec3bc0e2ad455",
+const RESOURCES = {"assets/AssetManifest.bin": "4401102f52e985ea4a3dc6da0bef795d",
+"assets/AssetManifest.json": "fcf62961c10174c1969f4f368a18fd68",
 "assets/assets/images/1.png": "df3be19fc5e90e108e7b3b60ec9f4cdc",
 "assets/assets/images/1PAISA%2520LOGO.png": "fc2f6b558d55b846c6bcf318da0e6dda",
 "assets/assets/images/2.png": "7b9ddc9b1400fc16b14b24ef3de631ce",
@@ -97,6 +97,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "3e60f39b3535946b2a8fc9625627b7bd
 "assets/assets/images/Mobile%2520Recharge.png": "1864b4a8cf713483e3afa9607705f636",
 "assets/assets/images/mobile-recharge-apiimg.jpg": "e5ea8d14df26832c4dd6acc36c1bc758",
 "assets/assets/images/MONEY%2520TRANSFER.png": "99085133b6f2ba7f6f356b1fb639c49e",
+"assets/assets/images/Money-Transfer-1.png": "df781c92169e954174aba3221196e352",
 "assets/assets/images/money_credit_history.png": "db5b4cde302d09488c05bd45dbd25470",
 "assets/assets/images/MPOS.png": "67b2ebb2a95459a4743de39b25754e72",
 "assets/assets/images/Municipal%2520&%2520Water%2520Bill%2520Payment.jpg": "023b5f02f81be9e414f12bd78a99f7bb",
@@ -147,8 +148,8 @@ const RESOURCES = {"assets/AssetManifest.bin": "3e60f39b3535946b2a8fc9625627b7bd
 "assets/assets/images/welcome-poster-spectrum-brush-strokes-white-background-colorful-gradient-brush-design-vector-paper-illustration-r-welcome-125370796.jpg": "f4ca3db82fd9b430bc36c0536e40e3f3",
 "assets/assets/images/welcome-poster.jpg": "f4ca3db82fd9b430bc36c0536e40e3f3",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
-"assets/fonts/MaterialIcons-Regular.otf": "d52a483d18604109b0deba01f11cf83d",
-"assets/NOTICES": "11f7a3d17b236a8efc40877fab2620db",
+"assets/fonts/MaterialIcons-Regular.otf": "a899a77c683ac404200729e319352537",
+"assets/NOTICES": "cd180020c1b8034d5f6361a11edd9bfb",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "0db203e8632f03baae0184700f3bda48",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "01bb14ae3f14c73ee03eed84f480ded9",
@@ -167,9 +168,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "3e60f39b3535946b2a8fc9625627b7bd
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "9b6af7eab3e0f90d8538b62bbb9c42d1",
-"/": "9b6af7eab3e0f90d8538b62bbb9c42d1",
-"main.dart.js": "62849650a8768ec70dad54c1b91b4cd1",
+"index.html": "0ba2e3ee4d578f532deabc0bb76c8fbf",
+"/": "0ba2e3ee4d578f532deabc0bb76c8fbf",
+"main.dart.js": "970d1148b524d5704bb8589dfb7845d8",
 "manifest.json": "3cff4400e4ea4c2e9bb290a8e6b83899",
 "version.json": "344ab2d5be59fed246fd5a68baa7b909"};
 // The application shell files that are downloaded before a service worker can
