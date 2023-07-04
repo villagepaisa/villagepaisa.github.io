@@ -148,7 +148,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "4401102f52e985ea4a3dc6da0bef795d
 "assets/assets/images/welcome-poster-spectrum-brush-strokes-white-background-colorful-gradient-brush-design-vector-paper-illustration-r-welcome-125370796.jpg": "f4ca3db82fd9b430bc36c0536e40e3f3",
 "assets/assets/images/welcome-poster.jpg": "f4ca3db82fd9b430bc36c0536e40e3f3",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
-"assets/fonts/MaterialIcons-Regular.otf": "a899a77c683ac404200729e319352537",
+"assets/fonts/MaterialIcons-Regular.otf": "dc3e09ef89d7f131858564e176e0559d",
 "assets/NOTICES": "c102faeda423300a661f482be51b4037",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "0db203e8632f03baae0184700f3bda48",
@@ -168,9 +168,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "4401102f52e985ea4a3dc6da0bef795d
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "b1969b8820fec98baa6f41108532b5d5",
-"/": "b1969b8820fec98baa6f41108532b5d5",
-"main.dart.js": "26f667724ec178761b60b6ef170310f1",
+"index.html": "0bc3d197d6d397ff153c599c014a03c1",
+"/": "0bc3d197d6d397ff153c599c014a03c1",
+"main.dart.js": "3c791237db3c222bf1262b95057327d2",
 "manifest.json": "3cff4400e4ea4c2e9bb290a8e6b83899",
 "version.json": "344ab2d5be59fed246fd5a68baa7b909"};
 // The application shell files that are downloaded before a service worker can
