@@ -23,23 +23,38 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="flutter_web_villagepaisa">
+  <meta name="apple-mobile-web-app-title" content="Village Paisa">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>flutter_web_villagepaisa</title>
+  <title>Village Paisa</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = "4275953527";
+    var serviceWorkerVersion = "3468823967";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
+
+  <style>
+    #splash {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-image: url('splash/img/light-background.png');
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: center;
+    }
+  </style>
 </head>
 <body>
+  <div id="splash"></div>
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
@@ -48,7 +63,10 @@
           serviceWorkerVersion: serviceWorkerVersion,
         },
         onEntrypointLoaded: function(engineInitializer) {
+
           engineInitializer.initializeEngine().then(function(appRunner) {
+            var splashScreen = document.getElementById('splash');
+            splashScreen.style.display = 'none';
             appRunner.runApp();
           });
         }
