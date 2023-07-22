@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.json": "2ec05fe619f61cf0472c7453c8fdf2da",
-"assets/AssetManifest.smcbin": "060f1a6d65b4956267c58350f1ea6a49",
+const RESOURCES = {"assets/AssetManifest.bin": "12bd7ccb9f3076e226ad4443acdd8ea5",
+"assets/AssetManifest.json": "2ec05fe619f61cf0472c7453c8fdf2da",
 "assets/assets/images/1.png": "df3be19fc5e90e108e7b3b60ec9f4cdc",
 "assets/assets/images/1PAISA%2520LOGO.png": "fc2f6b558d55b846c6bcf318da0e6dda",
 "assets/assets/images/2.png": "7b9ddc9b1400fc16b14b24ef3de631ce",
@@ -186,10 +186,10 @@ const RESOURCES = {"assets/AssetManifest.json": "2ec05fe619f61cf0472c7453c8fdf2d
 "icons/Icon-512.png": "59d11ab1acebc01bdc920b98ab5cf745",
 "icons/Icon-maskable-192.png": "f05f80451ce6d13246fcbc712f571bd7",
 "icons/Icon-maskable-512.png": "59d11ab1acebc01bdc920b98ab5cf745",
-"index.html": "8952dae67fa082d07e2e9201e389bc7d",
-"/": "8952dae67fa082d07e2e9201e389bc7d",
-"main.dart.js": "af372415feee46f0abd9a0a2b9014178",
-"manifest.json": "9556df11ca723d009c77257bd63dd977",
+"index.html": "082b8f11ccbdae2a4de42c38f8270337",
+"/": "082b8f11ccbdae2a4de42c38f8270337",
+"main.dart.js": "fad3e9df847502ab2569dccff48bbf2f",
+"manifest.json": "77ab029901b7271b44d377f81f4a4c06",
 "splash/img/light-background.png": "798eec9424be80750d302c32a088397f",
 "version.json": "344ab2d5be59fed246fd5a68baa7b909"};
 // The application shell files that are downloaded before a service worker can
