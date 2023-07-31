@@ -29605,7 +29605,7 @@ this.b=a
 this.c=null},
 aT7(a,b){var s=0,r=A.E(t.z),q,p,o,n
 var $async$aT7=A.A(function(c,d){if(c===1)return A.B(d,r)
-while(true)switch(s){case 0:n=A.E_("http","villagepaisa.in","mobile/auth/",null)
+while(true)switch(s){case 0:n=A.E_("https","villagepaisa.in","mobile/auth/",null)
 A.eZ(n)
 p=t.N
 o=A.af(["Content-Type","application/x-www-form-urlencoded"],p,p)
@@ -29638,7 +29638,7 @@ k=A
 s=3
 return A.x(A.RY(),$async$iU)
 case 3:o=m.af([l,"Token "+k.f(c)],p,p)
-n=A.E_("http","villagepaisa.in",a,null)
+n=A.E_("https","villagepaisa.in",a,null)
 A.eZ(n)
 s=4
 return A.x(A.b7m(n,o),$async$iU)
@@ -29657,7 +29657,7 @@ s=3
 return A.x(A.RY(),$async$hf)
 case 3:o=n.af([m,"Token "+l.f(d)],p,p)
 s=4
-return A.x(A.b8_(A.E_("http","villagepaisa.in",a,null),B.J.i2(b),o),$async$hf)
+return A.x(A.b8_(A.E_("https","villagepaisa.in",a,null),B.J.i2(b),o),$async$hf)
 case 4:q=d
 s=1
 break
@@ -29665,7 +29665,7 @@ case 1:return A.C(q,r)}})
 return A.D($async$hf,r)},
 afp(a){var s=0,r=A.E(t.z),q,p,o,n,m,l,k
 var $async$afp=A.A(function(b,c){if(b===1)return A.B(c,r)
-while(true)switch(s){case 0:p=A.bgc("POST",A.E_("http","villagepaisa.in",a,null))
+while(true)switch(s){case 0:p=A.bgc("POST",A.E_("https","villagepaisa.in",a,null))
 o=t.N
 n=p.r
 m=A
@@ -108324,7 +108324,7 @@ return new A.um(new A.ahF(s,1,!0,B.u0,!1),r,new A.ahE(new A.aT(new A.ab(p,t.wC),
 $S:605}
 A.anJ.prototype={
 $1(a){var s=null,r=this.a
-return A.bl(s,A.eG(!J.d(a,"")?A.aVV(A.E_("http","villagepaisa.in",a,s).gtR(),B.mk,r):A.WW("assets/images/welcome-poster.jpg",B.mk,r,s),s,s),B.k,s,s,s,s,s,s,s,s,s,s,s)},
+return A.bl(s,A.eG(!J.d(a,"")?A.aVV(A.E_("https","villagepaisa.in",a,s).gtR(),B.mk,r):A.WW("assets/images/welcome-poster.jpg",B.mk,r,s),s,s),B.k,s,s,s,s,s,s,s,s,s,s,s)},
 $S:606}
 A.rq.prototype={
 G(a){var s=null
@@ -108877,7 +108877,7 @@ a4(){return new A.a9n(B.i)}}
 A.a9n.prototype={
 az(){this.aK()
 this.d=this.a.c},
-G(a){var s,r,q,p,o,n,m=this,l=null,k="top_left",j=t.p,i=t.nk,h=A.BP(A.Lf(),A.a([new A.h5(l,l,A.a([A.wV(new A.a5(B.m,new A.bI(l,80,A.aVV(A.E_("http","villagepaisa.in",A.c7(a,!0,t.O).d,l).gtR(),l,l),l),l),l)],j))],i),l,B.eP),g=A.Lf(),f=m.d
+G(a){var s,r,q,p,o,n,m=this,l=null,k="top_left",j=t.p,i=t.nk,h=A.BP(A.Lf(),A.a([new A.h5(l,l,A.a([A.wV(new A.a5(B.m,new A.bI(l,80,A.aVV(A.E_("https","villagepaisa.in",A.c7(a,!0,t.O).d,l).gtR(),l,l),l),l),l)],j))],i),l,B.eP),g=A.Lf(),f=m.d
 f===$&&A.b()
 f=A.BP(g,A.a([new A.h5(l,l,A.a([A.wV(new A.a5(B.m,A.bv(A.a([A.aW(J.aC(J.a8(J.a8(f,k),0)),l,l,l,l,l,B.dj,l,l,l),A.aW(J.aC(J.a8(J.a8(m.d,k),1)),l,l,l,l,l,B.dj,l,l,l),A.aW(J.aC(J.a8(J.a8(m.d,k),2)),l,l,l,l,l,B.dj,l,l,l)],j),B.b3,B.q,B.p),l),l),A.wV(A.eG(A.aW(J.aC(J.a8(m.d,"top_center")),l,l,l,l,l,B.dj,l,l,l),l,l),B.pY),A.wV(A.eG(A.aW(J.aC(J.a8(m.d,"top_right")),l,l,l,l,l,B.dj,l,l,l),l,l),B.pY)],j))],i),l,B.eP)
 g=A.BP(A.Lf(),A.a([new A.h5(l,l,A.a([A.wV(new A.a5(B.m,A.aW(J.aC(J.a8(m.d,"heading_left")),l,l,l,l,l,B.dj,l,l,l),l),l),A.wV(new A.a5(B.m,A.aW(J.aC(J.a8(m.d,"heading_right")),l,l,l,l,l,B.dj,l,l,l),l),l)],j))],i),l,B.eP)
@@ -108932,7 +108932,7 @@ G(a){var s=null
 return A.bl(s,B.Kx,B.k,s,s,new A.dn(B.il,s,s,s,s,s,B.al),s,s,s,s,s,s,s,250)}}
 A.a1_.prototype={
 G(a){var s,r,q,p,o,n,m=null,l=A.T(a).fr,k=t.O,j=t.p
-k=A.a([A.eG(new A.a5(B.Tl,A.c7(a,!0,k).d!==""?A.aVV(A.E_("http","villagepaisa.in",A.c7(a,!0,k).d,m).gtR(),m,m):A.WW("assets/images/logo.png",m,m,m),m),m,m),B.aKR,A.eG(A.aW(A.c7(a,!0,k).b,m,m,m,m,m,A.cL(m,m,l,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),m,m),A.eG(A.aW("\u20b9"+A.f(A.c7(a,!0,k).f),m,m,m,m,m,A.cL(m,m,l,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),m,m),A.vH(m,!0,m,m,new A.az8(a),!1,m,A.aW("Dashboard",m,m,m,m,m,A.cL(m,m,l,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),m)],j)
+k=A.a([A.eG(new A.a5(B.Tl,A.c7(a,!0,k).d!==""?A.aVV(A.E_("https","villagepaisa.in",A.c7(a,!0,k).d,m).gtR(),m,m):A.WW("assets/images/logo.png",m,m,m),m),m,m),B.aKR,A.eG(A.aW(A.c7(a,!0,k).b,m,m,m,m,m,A.cL(m,m,l,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),m,m),A.eG(A.aW("\u20b9"+A.f(A.c7(a,!0,k).f),m,m,m,m,m,A.cL(m,m,l,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),m,m),A.vH(m,!0,m,m,new A.az8(a),!1,m,A.aW("Dashboard",m,m,m,m,m,A.cL(m,m,l,m,m,m,m,m,m,m,m,m,m,m,m,m,m,!0,m,m,m,m,m,m,m,m),m,m,m),m)],j)
 for(s=$.bbh(),s=s.gei(s),s=s.ga7(s);s.t();){r=s.gH(s)
 q=r.a
 p=A.a([],j)
