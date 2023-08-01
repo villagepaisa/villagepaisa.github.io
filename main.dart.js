@@ -106531,70 +106531,66 @@ return A.C(null,r)}})
 return A.D($async$AP,r)},
 y8(){var s=0,r=A.E(t.z),q,p=this,o,n,m,l,k,j,i,h
 var $async$y8=A.A(function(a,b){if(a===1)return A.B(b,r)
-while(true)switch(s){case 0:h=window.location
-h=h.host
-h.toString
-A.an().$1("Main > Web > Domain host : "+h)
-p.AP()
+while(true)switch(s){case 0:p.AP()
 p.AQ()
 A.an().$1("main > checkToken()")
 s=3
 return A.x(A.t2(),$async$y8)
 case 3:o=b
-h=o.a
-n=J.Y(h)
-m=A.dL(n.h(h,"token"))
-h=A.kj(n.h(h,"pin"))
-p.d=h
-if(m==null){A.an().$1("Main: checktoken > Token is null, redirecting to login screen")
+n=o.a
+m=J.Y(n)
+l=A.dL(m.h(n,"token"))
+n=A.kj(m.h(n,"pin"))
+p.d=n
+if(l==null){A.an().$1("Main: checktoken > Token is null, redirecting to login screen")
 q="unauth"
 s=1
-break}if(h!=null)p.a.toString
+break}if(n!=null)p.a.toString
 s=4
 return A.x(A.iW("mobile/profile/"),$async$y8)
-case 4:l=b
-h=l.b
-A.an().$1(B.e.k(h))
-k=B.J.d4(0,A.dN(A.dM(l.e).c.a.h(0,"charset")).bu(0,l.w),null)
-n=J.cn(k)
-A.an().$1(n.k(k))
-if(J.d(n.h(k,"detail"),"Invalid token.")){A.an().$1("Main: checktoken > Invalid Token! removeing now, redirecting to login screen")
+case 4:k=b
+n=k.b
+A.an().$1(B.e.k(n))
+j=B.J.d4(0,A.dN(A.dM(k.e).c.a.h(0,"charset")).bu(0,k.w),null)
+m=J.cn(j)
+A.an().$1(m.k(j))
+if(J.d(m.h(j,"detail"),"Invalid token.")){A.an().$1("Main: checktoken > Invalid Token! removeing now, redirecting to login screen")
 o.D(0,"token")
 q="unauth"
 s=1
-break}if(J.d(n.h(k,"non_field_errors"),"Unable to log in with provided credentials.")){A.an().$1("Main: checktoken > Incorrect Token! removeing now, redirecting to login screen")
+break}if(J.d(m.h(j,"non_field_errors"),"Unable to log in with provided credentials.")){A.an().$1("Main: checktoken > Incorrect Token! removeing now, redirecting to login screen")
 o.D(0,"token")
 q="unauth"
 s=1
 break}A.an().$1("setting data")
-j=p.c
-j.toString
-i=t.O
-j=A.c7(j,!1,i)
-j.b=n.h(k,"name")
-j.ah()
-j=p.c
-j.toString
-j=A.c7(j,!1,i)
-j.d=n.h(k,"logo")
-j.ah()
-j=p.c
-j.toString
-j=A.c7(j,!1,i)
-j.e=n.h(k,"banners")
-j.ah()
-j=p.c
-j.toString
-j=A.c7(j,!1,i)
-j.w=n.h(k,"doc_verify")
-j.ah()
-j=p.c
-j.toString
-i=A.c7(j,!1,i)
-i.c=n.h(k,"news")
+i=p.c
+i.toString
+h=t.O
+i=A.c7(i,!1,h)
+i.b=m.h(j,"name")
 i.ah()
+i=p.c
+i.toString
+i=A.c7(i,!1,h)
+i.d=m.h(j,"logo")
+i.ah()
+i=p.c
+i.toString
+i=A.c7(i,!1,h)
+i.e=m.h(j,"banners")
+i.ah()
+i=p.c
+i.toString
+i=A.c7(i,!1,h)
+i.w=m.h(j,"doc_verify")
+i.ah()
+i=p.c
+i.toString
+h=A.c7(i,!1,h)
+h.c=m.h(j,"news")
+h.ah()
 A.an().$1("done")
-if(B.e.k(h)[0]==="2"){A.an().$1("Main: checktoken > Token authenticated, redirecting to home screen")
+if(B.e.k(n)[0]==="2"){A.an().$1("Main: checktoken > Token authenticated, redirecting to home screen")
 q="authenticated"
 s=1
 break}case 1:return A.C(q,r)}})
@@ -139243,7 +139239,7 @@ $.b4f=1
 $.bnX=A.a([A.ad(["title","Action","name","Receipt","path","mobile/aepsfino_get_receipt/","update_table_path","mobile/aepsfino_report/"],t.N,t.z)],t.H7)
 $.bqK=A.a([A.ad(["title","Action","name","Reciept","path","mobile/?/","update_table_path","mobile/recharge_report/"],t.N,t.z)],t.H7)
 $.bow=function(){var s=t.N
-return A.ad(["localhost",A.ad(["name","Willagepaisa"],s,s),"villagepaisa.in",A.ad(["name","Villagepaisa"],s,s),"digitalrun.in",A.ad(["name","Digitalrun"],s,s),"gmaxepay.in",A.ad(["name","Gmaxepay"],s,s)],s,t.z)}()
+return A.ad(["localhost",A.ad(["name","Willagepaisa"],s,s),"agent.villagepaisa.in",A.ad(["name","Villagepaisa"],s,s),"agent.digitalrun.in",A.ad(["name","Digitalrun"],s,s),"agent.gmaxepay.in",A.ad(["name","Gmaxepay"],s,s)],s,t.z)}()
 $.bpT=A.a(["Andhra Pradesh Telangana","Assam","Bihar Jharkhand","Chennai","Delhi NCR","Gujarat","Haryana","Himachal Pradesh","Jammu Kashmir","Karnataka","Kerala","Kolkata","Madhya Pradesh Chhattisgarh","Maharashtra Goa","Mumbai","North East","Orissa","Punjab","Rajasthan","Tamil Nadu","UP East","UP West","West Bengal"],t.s)
 $.bnW=A.a(["Airtel Payment Bank","Allahabad Bank","Allahabad UP Gramin Bank","Andhra Bank","Andhra Pradesh Grameena Vikash Bank","Andhra Pragathi Grameena Bank","AP Mahesh Coop Urban Bank Ltd","Aryavart Bank","Assam Gramin Vikash Bank","AU Small Finance Bank","Axis Bank","Bangiya Gramin Vikash Bank","Bank Of Baroda","Bank of India","Bank of Maharashtra","Baroda Gujarat Gramin Bank","Baroda Rajasthan Kshetriya Gramin Bank","Baroda Uttar Pradesh Gramin Bank ","Canara Bank","Catholic Syrian Bank","Central Bank of India","Chaitanya Godavari Gramin Bank","Chhattisgarh Rajya Gramin Bank","City Union Bank ","Corporation Bank","Dakshin Bihar Gramin Bank","Dena Bank","Dena Gujarat Gramin Bank","Ellaquai Dehati Bank","Equitas Small Finance Bank","Federal Bank","Fincare Small Finance Bank","Fino Payments Bank","Gramin bank of Aryavart","HDFC Bank","Himachal Pradesh Gramin Bank","ICICI Bank","IDBI Bank","IDFC First Bank","India Post Payment Bank","Indian bank","Indian Overseas Bank","IndusInd Bank","Jammu &amp; Kashmir Bank ","Jharkhand Gramin Bank","Jharkhand Rajya Gramin Bank","Karnataka Bank","Karnataka Gramin Bank","Karnataka Vikas Grameena Bank ","Karur Vysya Bank","Kashi Gomati Samyut Gramin Bank","Kerala Gramin Bank","Kotak Mahindra Bank","Lakshmi Vilas Bank","Langpi Dehangi Rural Bank","Madhya Bihar Gramin Bank erstwhile Dakshin Bihar Gramin Bank","Madhya Pradesh Gramin Bank","Madhyanchal Gramin Bank","Maharashtra Gramin Bank ","Manipur Rural Bank ","Meghalaya Rural Bank","Mizoram Rural Bank","Narmada Jhabua Gramin Bank","Odisha Gramya Bank ","Oriental Bank of Commerce","Pallavan Grama Bank","Pandyan Grama Bank","Paschim Banga Gramin Bank","Pragathi Krishna Gramin Bank","Prathama Bank","Prathma UP Gramin Bank","Puduvai Bharathiar Grama Bank","Punjab &amp; Sind Bank","Punjab Gramin Bank","Punjab National Bank","Purvanchal Gramin Bank","Rajasthan Marudhara Gramin Bank","Ratnakar Bank","Saptagiri Grameena Bank","Sarva Haryana Gramin Bank","Sarva UP Gramin Bank ","Saurashtra Gramin Bank","Shivalik Mercantile Cooperative Bank ","South Indian Bank","State Bank of India","Syndicate Bank","Tamilnad Mercantile Bank","TamilNadu Grama Bank","Telangana Grameena Bank","The Saraswat Co-operative Bank Ltd","Tripura Gramin Bank","UCO Bank","Ujjivan Small Finance Bank Limited","Union Bank of India","United Bank Of India","Utkal Gramin Bank","Uttar Banga Kshetriya Gramin Bank ","Uttar Bihar Grameen Bank ","Uttarakhand Gramin Bank","Vananchal Gramin Bank","Vidarbha Konkan Gramin Bank","Vijaya Bank","YES Bank","Paytm Payments Bank"],t.s)
 $.br4=A.ad(["Solved Complaints",B.N,"Pending Complaints",B.N],t.N,t.l)
