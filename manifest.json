@@ -1,11 +1,11 @@
 {
-    "name": "Village Paisa",
-    "short_name": "Village Paisa",
+    "name": "Fintech",
+    "short_name": "Fintech",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Village Paisa project.",
+    "description": "A Fintech project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
