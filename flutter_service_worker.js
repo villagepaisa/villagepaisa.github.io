@@ -3,8 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.json": "2ec05fe619f61cf0472c7453c8fdf2da",
-"assets/AssetManifest.smcbin": "060f1a6d65b4956267c58350f1ea6a49",
+const RESOURCES = {"assets/AssetManifest.bin": "55b459b03492983b87a1a84e7f432b52",
+"assets/AssetManifest.json": "abe9b3080ffd17a7be674473bcf66e09",
+"assets/assets/gmaxepayLogo.png": "913f7349e64297cb07a5850c801c227d",
 "assets/assets/images/1.png": "df3be19fc5e90e108e7b3b60ec9f4cdc",
 "assets/assets/images/1PAISA%2520LOGO.png": "fc2f6b558d55b846c6bcf318da0e6dda",
 "assets/assets/images/2.png": "7b9ddc9b1400fc16b14b24ef3de631ce",
@@ -166,8 +167,8 @@ const RESOURCES = {"assets/AssetManifest.json": "2ec05fe619f61cf0472c7453c8fdf2d
 "assets/assets/images/youtube.png": "360827b3648542fcde3fa120acbdc732",
 "assets/assets/vp_fav2.jpeg": "b94fc3a324949b28ebaa57f596ea5f73",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
-"assets/fonts/MaterialIcons-Regular.otf": "5c5daab818dc4d770629d18ec626d412",
-"assets/NOTICES": "9a616d490e29d6d3fe16082213451ea1",
+"assets/fonts/MaterialIcons-Regular.otf": "d25f057c49d603d649e0c14f38e1bfa9",
+"assets/NOTICES": "5ecc2e35093a929cd5603898114b0cea",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "0db203e8632f03baae0184700f3bda48",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "01bb14ae3f14c73ee03eed84f480ded9",
@@ -186,10 +187,10 @@ const RESOURCES = {"assets/AssetManifest.json": "2ec05fe619f61cf0472c7453c8fdf2d
 "icons/Icon-512.png": "59d11ab1acebc01bdc920b98ab5cf745",
 "icons/Icon-maskable-192.png": "f05f80451ce6d13246fcbc712f571bd7",
 "icons/Icon-maskable-512.png": "59d11ab1acebc01bdc920b98ab5cf745",
-"index.html": "54bfe5daae2463ccfb995b288dd7a3e0",
-"/": "54bfe5daae2463ccfb995b288dd7a3e0",
-"main.dart.js": "4a51492de7aa9876ce48befaf7c25e45",
-"manifest.json": "612767a54be75f1e4ee64dc7bc7ac128",
+"index.html": "5b48cde0b887a7198344bc0c7ed7c801",
+"/": "5b48cde0b887a7198344bc0c7ed7c801",
+"main.dart.js": "ab6524afc1400c592a6faaf14bf4d788",
+"manifest.json": "875c8c3e07da4018182d5be60a9da6b4",
 "splash/img/doublering.gif": "8dac1d96b179a2bd693f94af547d8ff2",
 "splash/img/light-background.png": "798eec9424be80750d302c32a088397f",
 "version.json": "344ab2d5be59fed246fd5a68baa7b909"};
